@@ -90,7 +90,7 @@ function renderList(array) {
     })
   })
 
-  //Reset all
+  //Reset all button
   document.querySelector('.reset-button').addEventListener('click', () => {
     document.querySelector('.product-list').innerHTML = ''
     document.querySelector('.total').innerHTML = ''

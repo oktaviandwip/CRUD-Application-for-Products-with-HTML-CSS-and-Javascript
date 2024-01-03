@@ -58,5 +58,5 @@ function submitInput() {
   localStorage.removeItem('nameDesc') 
 }
 
-//Back to home
+//Back to home button
 document.querySelector('.back-to-home').addEventListener('click', () => {location.href = 'home.html'})

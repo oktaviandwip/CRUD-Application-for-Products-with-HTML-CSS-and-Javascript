@@ -1,20 +1,24 @@
+body {
+  font-family: Arial;
+  font-size: 14px;
+}
+
 .top-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f9f9f9;
   border: 2px solid #e3e3e3;
   border-radius: 10px;
   padding-bottom: 30px;
-  background-color: #f9f9f9;
-  font-family: Arial;
 }
 
 .title {
-  margin-top: 15px;
-  margin-bottom: 10px;
+  font-family: montserrat;
   font-size: 30px;
   font-weight: bold;
-  font-family: montserrat;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .input-section {
@@ -22,36 +26,32 @@
   grid-template-columns: 120px 10px 250px;
   grid-template-rows: 30px 30px 30px 30px;
   align-items: center;
-  font-size: 14px;
 }
 
-.submit-button {
-  width: 380px;
-  height: 30px;
-  margin-top: 10px;
-  margin-bottom: 7px;
-  background-color: rgb(31, 136, 61);
-  border: none;
-  border-radius: 3px;
-  color: white;
-  font-weight: bold;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
-  transition: box-shadow 0.15s; 
-}
-
-.submit-button:active {
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-}
-
+.submit-button,
 .back-to-home {
   width: 380px;
   height: 30px;
-  background-color: #778899;
+  color: white;
   border: none;
   border-radius: 3px;
-  color: white;
   font-weight: bold;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.15s; 
+}
+
+.submit-button {
+  background-color: rgb(31, 136, 61);
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.back-to-home {
+  background-color: #778899;
+}
+
+.submit-button:active,
+.back-to-home:active {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
