@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <link rel="stylesheet" href="home.css"
+  <link rel="stylesheet" href="styles/home.css">
 </head>
+
 <body>
   <div class="top-section" align="center">
-    <p class="title">CRUD Application for Products </p>
-    <input placeholder=" Find Product" class="js-input-name input-name">
-    <button class="js-find-product find-product">Find</button>
-    <button class="js-add-button add-button">Add Product</button> 
+    <div class="title">CRUD Application<br>for Products </div>
+    <input placeholder=" Find Product" class="input-name">
+    <button class="find-product">Find</button>
+    <button class="add-button">Add Product</button> 
   </div>
 
   <div class="header">
@@ -19,14 +20,14 @@
       <p class="grid-header">Action</p>
       <p class="grid-header">Product Name</p>
       <p class="grid-header">Description</p>
-      <p class="grid-header">Price (Rp.)</p>
+      <p class="grid-header">Price (Rp)</p>
       <p class="grid-header">Amount</p>
-      <p class="grid-header">Total Price (Rp.)</p>
+      <p class="grid-header">Total Price (Rp)</p>
   </div>
 
-  <div class="js-product-list product-list"></div>
-  <div class="js-total total"></div>
+  <div class="product-list"></div>
+  <div class="total"></div>
 
-  <script src="home.js"></script>
+  <script src="scripts/home.js"></script>
 </body>
 </html>
