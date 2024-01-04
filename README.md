@@ -1,2 +1,2 @@
-<p align="center"># CRUD Products Application</p>
-<p align="center"><img src="CRUD Products Application.png" style="width: 80%"></p>
+# CRUD Products Application</p>
+<p align="center"><img src="CRUD Products Application.png" alt="CRUD Products Application" style="width: 50%"></p>
