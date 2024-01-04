@@ -38,7 +38,7 @@ function addData() {
       location.href = 'home.html' 
       alert('Added data successfully!')
     } else {
-      alert('Price and Amount must be a positive integer!')
+      alert('Price and Amount must be a positive number!')
   }
 }
 

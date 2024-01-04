@@ -31,7 +31,7 @@ function submitInput() {
     location.href = 'home.html' 
     alert('Changed data successfully!')
   } else {
-    alert('Price and Amount must be a positive integer')
+    alert('Price and Amount must be a positive number')
   }
 }
 
