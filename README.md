@@ -5,7 +5,7 @@
 ## 1. How it works
 <div align="center">
   <video>
-      <source src="CRUD Products Application.mp4" type="video/mp4">
+      <source src="CRUD Products Application.gif" type="video/mp4">
       Your browser does not support the video tag.
   </video>
 </div>
